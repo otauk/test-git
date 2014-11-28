@@ -1,0 +1,47 @@
+@textfarbe: #333;
+@meinefarbe-hell: red;
+@meinefarbe-dunkel: blue;
+@breite: 25px;
+@wichtig-farbe: #fff;
+@fs-small: 90%;
+@fs-regular: 100%;
+@fs-medium: 110%;
+@fs-large: 120%;
+
+
+body {
+	color:@meinefarbe-hell;
+	padding: @breite;
+	background-color: @wichtig-farbe;
+	font-size: @fs-regular;
+}
+
+h1 {
+	color:@meinefarbe-dunkel;
+	font-size: @fs-large;
+}
+
+h2 {
+font-size:@fs-medium;
+}
+
+p {
+	color: @textfarbe;
+
+}
+
+li {
+	color: @textfarbe;
+	background-color: red;
+	font-size: @fs-small;
+}
+
+a {
+	&:link, &:visited {
+		color:@meinefarbe-hell;
+		text-decoration: underline;
+	}
+	&:hover, &:active, &:focus {
+		background-color: @meinefarbe-dunkel;
+	}
+}
