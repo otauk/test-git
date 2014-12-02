@@ -1,1 +1,31 @@
-body{color:#f00;padding:25px;background-color:#fff;font-size:100%}h1{color:#00f;font-size:120%}h2{font-size:110%}p{color:#333}li{color:#333;background-color:#f00;font-size:90%}a:link,a:visited{color:#f00;text-decoration:underline}a:hover,a:active,a:focus{background-color:#00f}
+body {
+  color: #ff0000;
+  padding: 25px;
+  background-color: #ffffff;
+  font-size: 100%;
+}
+h1 {
+  color: #0000ff;
+  font-size: 120%;
+}
+h2 {
+  font-size: 110%;
+}
+p {
+  color: #ffff00;
+}
+li {
+  color: #ffff00;
+  background-color: red;
+  font-size: 90%;
+}
+a:link,
+a:visited {
+  color: #ff0000;
+  text-decoration: underline;
+}
+a:hover,
+a:active,
+a:focus {
+  background-color: #0000ff;
+}
